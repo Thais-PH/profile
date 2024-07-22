@@ -1,0 +1,68 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: #D1EDE6;
+  color: #68352E;
+  text-align: center;
+  padding: 25px;
+}
+
+h1, h2, h3 {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #D31391;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
+
+.card {
+  background-color: #EEEEEE;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #570A57;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+#profile_pic {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #508EE9;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #01EAAB;
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 300px;
+  }
+}
